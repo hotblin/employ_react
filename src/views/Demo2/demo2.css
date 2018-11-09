@@ -1,0 +1,10 @@
+.demo2{
+  color: #ffffff;
+}
+.demo2 .demo2-son{
+  margin-top: 20px;
+  border: 1px solid #fff;
+}
+.demo2 .demo2-son button{
+  margin-top: 10px;
+}

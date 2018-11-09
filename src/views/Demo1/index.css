@@ -1,0 +1,8 @@
+.demo1 ,.demo2{
+  width: 100%;
+  color: aqua;
+}
+
+.demo1 p {
+  font-size: 12px;
+}
