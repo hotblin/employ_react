@@ -1,0 +1,11 @@
+.demo4-body{
+  color: #ffffff;
+}
+.demo4-body .dialog-body{
+  padding: 5px;
+  width: 200px;
+  margin: 20px auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: royalblue;
+}

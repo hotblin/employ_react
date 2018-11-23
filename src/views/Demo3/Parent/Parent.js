@@ -33,10 +33,13 @@ class Parent extends Component {
   }
 }
 
+// 对于组件的传入值在进行类型强化
 Parent.propTypes = {
   btnClick: PropTypes.func.isRequired,
   user: PropTypes.object.isRequired
 }
+
+
 const mapStateToProps = state => {
   return {
     user: state.user

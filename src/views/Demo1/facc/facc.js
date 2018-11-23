@@ -8,11 +8,11 @@ export default class FaCC extends Component {
 
   render() {
     const { toggle } = this.state;
-    const {children} = this.props;
+    // const {children} = this.props;
     // 这 children 就是当前组件调用后被嵌套在内部的东西
     // 在这里是一个函数，函数参数是toggle，函数的功能是通过toggle的不同来显示不同的内容
     // 所以我们这里改变toggle的值，会显示不同的内容
-    console.log(children);
+    // console.log(children);
     return (
       <div>
         <button onClick={this.click}>Toggle Name</button>

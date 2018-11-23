@@ -7,6 +7,7 @@ import FaccComponent from './facc/comb';
 import './index.css';
 export default class Demo1 extends Component {
   render(){
+    // console.log(this.props);
     return (
      <div className="demo1">
         <ComponentA/>
